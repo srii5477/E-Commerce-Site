@@ -1,0 +1,2 @@
+1. implement dark mode toggle functionality
+2. send login key as hidden text back to index.ejs and use it to implement the rest of its functionality.

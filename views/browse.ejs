@@ -1,0 +1,13 @@
+<%- include ("partials/header") %>
+<% for(let i = 0; i < cards.length; i++) { %>
+    <div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title"> <%= cards[i].title %> </h5>
+            <p class="card-text"> <%= cards[i].descrip %> </p>
+            <button type="submit" class="btn btn-primary"> Check this out </button>
+        </div>
+    </div>
+<% } %>
+</body>
+</html>

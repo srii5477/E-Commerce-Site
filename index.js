@@ -19,7 +19,7 @@ const db1 = mongoose.createConnection("mongodb://localhost:27017/loginDB", { use
 //     console.error(error);
 // });
 
-const uri =  "mongodb+srv://Sridevi:Sridevi1161!@cluster0.porxqpy.mongodb.net/?retryWrites=true&w=majority";
+// const uri
 
 
 const loginSchema = new mongoose.Schema({
